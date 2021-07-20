@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers xmlns="http://www.demandware.com/xml/impex/customer/2006-10-31">
+    <customer customer-no="aa">
+        <credentials>
+            <login>a</login>
+            <password encrypted="true" encryptionScheme="scrypt"/>
+            <enabled-flag>true</enabled-flag>
+            <password-question/>
+            <password-answer/>
+        </credentials>
+        <profile>
+            <salutation/>
+            <title/>
+            <first-name>who</first-name>
+            <second-name/>
+            <last-name/>
+            <suffix/>
+            <company-name/>
+            <job-title/>
+            <email>who@gmail.com</email>
+            <phone-home/>
+            <phone-business/>
+            <phone-mobile>0999123456</phone-mobile>
+            <fax/>
+            <creation-date>2021-01-24T19:25:31.000Z</creation-date>
+            <preferred-locale/>
+            <custom-attributes>
+                <custom-attribute attribute-id="CardCode">000000000000</custom-attribute>
+                <custom-attribute attribute-id="CustomerAccountTypeId">2</custom-attribute>
+                <custom-attribute attribute-id="IsDelete">false</custom-attribute>
+                <custom-attribute attribute-id="IsLock">false</custom-attribute>
+                <custom-attribute attribute-id="IsOrderNewsletter">false</custom-attribute>
+                <custom-attribute attribute-id="IsSystemAccount">false</custom-attribute>
+                <custom-attribute attribute-id="IsTaxExempt">false</custom-attribute>
+                <custom-attribute attribute-id="IsWebreg">2</custom-attribute>
+                <custom-attribute attribute-id="LastIpAddress">1.162.131.99</custom-attribute>
+                <custom-attribute attribute-id="SystemName">Registered</custom-attribute>
+                <custom-attribute attribute-id="carriertype">1</custom-attribute>
+                <custom-attribute attribute-id="isvip">false</custom-attribute>
+            </custom-attributes>
+        </profile>
+        <external-profiles>
+            <external-profile>
+                <provider-id>OCA991</provider-id>
+                <external-id>feed67a34aeea</external-id>
+            </external-profile>
+        </external-profiles>
+        <addresses>
+            <address address-id="a1" preferred="true">
+                <salutation/>
+                <title/>
+                <first-name>NAME</first-name>
+                <second-name/>
+                <last-name/>
+                <suffix/>
+                <company-name/>
+                <job-title/>
+                <address1>ADDRESS OAO</address1>
+                <address2/>
+                <suite/>
+                <postbox/>
+                <city>XX區</city>
+                <postal-code>12345</postal-code>
+                <state-code>CityName</state-code>
+                <country-code>??</country-code>
+                <phone>123456789</phone>
+                <custom-attributes>
+                    <custom-attribute attribute-id="CityId">99</custom-attribute>
+                    <custom-attribute attribute-id="DeliveryIsElevator">false</custom-attribute>
+                    <custom-attribute attribute-id="DeliveryPoint">1</custom-attribute>
+                    <custom-attribute attribute-id="DistrictId">99</custom-attribute>
+                    <custom-attribute attribute-id="IsDefault">true</custom-attribute>
+                    <custom-attribute attribute-id="StreetId">99999</custom-attribute>
+                    <custom-attribute attribute-id="isRecipient">true</custom-attribute>
+                </custom-attributes>
+            </address>
+        </addresses>
+        <note/>
+    </customer>
+
+</customers>

@@ -147,6 +147,7 @@ public class Conv
 							ReadTextBy( reader, cc, "salutation", ( v ) -> m.salutation = v );
 							ReadTextBy( reader, cc, "title", ( v ) -> m.title = v );
 							ReadTextBy( reader, cc, "first-name", ( v ) -> m.first_name = v );
+							ReadTextBy( reader, cc, "second-name", ( v ) -> m.second_name = v );
 							ReadTextBy( reader, cc, "last-name", ( v ) -> m.last_name = v );
 							ReadTextBy( reader, cc, "suffix", ( v ) -> m.suffix = v );
 							ReadTextBy( reader, cc, "company-name", ( v ) -> m.company_name = v );
@@ -239,6 +240,7 @@ public class Conv
 					out.print( m.salutation + separator );
 					out.print( m.title + separator );
 					out.print( m.first_name + separator );
+					out.print( m.second_name + separator );
 					out.print( m.last_name + separator );
 					out.print( m.suffix + separator );
 					out.print( m.company_name + separator );
@@ -252,6 +254,7 @@ public class Conv
 					out.print( m.state_code + separator );
 					out.print( m.country_code + separator );
 					out.print( m.phone + separator );
+
 					out.print( m.deliveryiselevator + separator );
 					out.print( m.isdefault + separator );
 					out.print( m.isrecipient );

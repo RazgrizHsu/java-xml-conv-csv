@@ -13,6 +13,7 @@ public class CustomerP1
 	public String salutation = "";
 	public String title = "";
 	public String first_name = "";
+	public String second_name = "";
 	public String last_name = "";
 	public String suffix = "";
 	public String company_name = "";
